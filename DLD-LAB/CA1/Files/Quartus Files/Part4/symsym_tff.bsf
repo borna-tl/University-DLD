@@ -1,0 +1,177 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 168 240)
+	(text "symsym_tff" (rect 5 0 75 19)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 203 24 220)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "PRESET" (rect 0 0 47 19)(font "Intel Clear" (font_size 8)))
+		(text "PRESET" (rect 21 27 68 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "LSBA" (rect 0 0 31 19)(font "Intel Clear" (font_size 8)))
+		(text "LSBA" (rect 21 43 52 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "MSBA" (rect 0 0 35 19)(font "Intel Clear" (font_size 8)))
+		(text "MSBA" (rect 21 59 56 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "LSBB" (rect 0 0 31 19)(font "Intel Clear" (font_size 8)))
+		(text "LSBB" (rect 21 75 52 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "MSBB" (rect 0 0 35 19)(font "Intel Clear" (font_size 8)))
+		(text "MSBB" (rect 21 91 56 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "LSBC" (rect 0 0 31 19)(font "Intel Clear" (font_size 8)))
+		(text "LSBC" (rect 21 107 52 126)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "MSBC" (rect 0 0 35 19)(font "Intel Clear" (font_size 8)))
+		(text "MSBC" (rect 21 123 56 142)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 128)(pt 16 128))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "LSBD" (rect 0 0 33 19)(font "Intel Clear" (font_size 8)))
+		(text "LSBD" (rect 21 139 54 158)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 144)(pt 16 144))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "MSBD" (rect 0 0 36 19)(font "Intel Clear" (font_size 8)))
+		(text "MSBD" (rect 21 155 57 174)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 160)(pt 16 160))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "LSBDN" (rect 0 0 42 19)(font "Intel Clear" (font_size 8)))
+		(text "LSBDN" (rect 21 171 63 190)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 176)(pt 16 176))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "LSBUP" (rect 0 0 41 19)(font "Intel Clear" (font_size 8)))
+		(text "LSBUP" (rect 21 187 62 206)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 192)(pt 16 192))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "LSBQA" (rect 0 0 41 19)(font "Intel Clear" (font_size 8)))
+		(text "LSBQA" (rect 90 27 131 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 152 32)(pt 136 32))
+	)
+	(port
+		(pt 152 48)
+		(output)
+		(text "MSBQA" (rect 0 0 44 19)(font "Intel Clear" (font_size 8)))
+		(text "MSBQA" (rect 87 43 131 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 152 48)(pt 136 48))
+	)
+	(port
+		(pt 152 64)
+		(output)
+		(text "LSBQB" (rect 0 0 41 19)(font "Intel Clear" (font_size 8)))
+		(text "LSBQB" (rect 90 59 131 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 152 64)(pt 136 64))
+	)
+	(port
+		(pt 152 80)
+		(output)
+		(text "MSBQB" (rect 0 0 44 19)(font "Intel Clear" (font_size 8)))
+		(text "MSBQB" (rect 87 75 131 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 152 80)(pt 136 80))
+	)
+	(port
+		(pt 152 96)
+		(output)
+		(text "LSBQC" (rect 0 0 41 19)(font "Intel Clear" (font_size 8)))
+		(text "LSBQC" (rect 90 91 131 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 152 96)(pt 136 96))
+	)
+	(port
+		(pt 152 112)
+		(output)
+		(text "MSBQC" (rect 0 0 44 19)(font "Intel Clear" (font_size 8)))
+		(text "MSBQC" (rect 87 107 131 126)(font "Intel Clear" (font_size 8)))
+		(line (pt 152 112)(pt 136 112))
+	)
+	(port
+		(pt 152 128)
+		(output)
+		(text "LSBQD" (rect 0 0 42 19)(font "Intel Clear" (font_size 8)))
+		(text "LSBQD" (rect 89 123 131 142)(font "Intel Clear" (font_size 8)))
+		(line (pt 152 128)(pt 136 128))
+	)
+	(port
+		(pt 152 144)
+		(output)
+		(text "MSBQD" (rect 0 0 46 19)(font "Intel Clear" (font_size 8)))
+		(text "MSBQD" (rect 85 139 131 158)(font "Intel Clear" (font_size 8)))
+		(line (pt 152 144)(pt 136 144))
+	)
+	(port
+		(pt 152 176)
+		(output)
+		(text "TFFOUT" (rect 0 0 49 19)(font "Intel Clear" (font_size 8)))
+		(text "TFFOUT" (rect 82 171 131 190)(font "Intel Clear" (font_size 8)))
+		(line (pt 152 176)(pt 136 176))
+	)
+	(port
+		(pt 152 160)
+		(bidir)
+		(text "MSBCO" (rect 0 0 44 19)(font "Intel Clear" (font_size 8)))
+		(text "MSBCO" (rect 87 155 131 174)(font "Intel Clear" (font_size 8)))
+		(line (pt 152 160)(pt 136 160))
+	)
+	(drawing
+		(rectangle (rect 16 16 136 208))
+	)
+)
