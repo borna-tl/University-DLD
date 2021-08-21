@@ -4,7 +4,7 @@ Contains all of the projects from both Digital Logic Design and Digital Logic De
 Each project comes with a manual which explains the project and its goals in great detail.
 The Lab projects are much more advanced and require more effort!
 
-The project names are as below:
+The project titles are as below:
 # DLD
 * CA1: Basic Switch and Gate Structures in Verilog
 * CA2: Basic Switch and Gate Structures in Verilog
